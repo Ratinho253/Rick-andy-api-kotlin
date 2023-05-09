@@ -6,5 +6,6 @@ data class Character(
     val status : String,
     val species : String,
     val image : String,
-    val location : Location
+    val location : Location,
+    val origin: Origin
 )
